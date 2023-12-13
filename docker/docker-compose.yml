@@ -1,0 +1,8 @@
+services:
+    apps:
+        build: .
+        container_name: mitsuba
+        #command:
+        #ports:
+        volumes:
+            - ..:/code
