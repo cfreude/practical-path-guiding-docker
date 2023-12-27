@@ -1,7 +1,7 @@
 services:
     apps:
         build: .
-        container_name: mitsuba
+        container_name: ppg-mitsuba
         #command:
         #ports:
         volumes:

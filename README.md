@@ -23,7 +23,7 @@ For this one can use e.g. ```docker exec``` or ```docker attach```.
 #### Build and Run
 
 1. Open a terminal.
-2. Execute ```docker exec -it mitsuba bash``` to open an interactive shell inside the docker container.
+2. Execute ```docker exec -it ppg-mitsuba bash``` to open an interactive shell inside the docker container.
 3. Execute ```cd mitsuba/ && ./build.sh``` to build Mitsuba.
 4. Execute ```./dist/mitsuba``` to test if Mitsuba runs.
 
